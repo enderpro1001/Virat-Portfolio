@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Virat Pandey | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .profile-section {
+            display: flex;
+            align-items: center;
+        }
+        .profile-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+        .profile-image img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .profile-info {
+            flex: 3;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background-color: #eee;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Virat Pandey</h1>
+        <p>16 Years of Expertise in Finance, Analytics, Automation & AI</p>
+    </header>
+
+    <div class="container">
+        <section class="profile-section">
+            <div class="profile-image">
+                <img src="Camera Roll/WIN_20240615_10_39_00_Pro" alt="Virat Pandey">
+            </div>
+            <div class="profile-info">
+                <h2>About Me</h2>
+                <p>Hi, I’m Virat Pandey, with 16 years of professional experience in Finance, Analytics, Automation, Artificial Intelligence, and Machine Learning. I’m passionate about leveraging technology and data to drive business success and create innovative solutions in today's rapidly evolving world.</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Key Skills</h2>
+            <ul>
+                <li>Finance</li>
+                <li>Data Analytics</li>
+                <li>Automation</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Problem Solving</li>
+                <li>Strategic Planning</li>
+            </ul>
+        </section>
+
+        <section class="experience">
+            <h2>Professional Experience</h2>
+            <p><strong>Senior AI Consultant</strong> at ABC Solutions (2015 - Present)</p>
+            <ul>
+                <li>Developed AI-driven automation systems that reduced operational costs by 20%.</li>
+                <li>Led machine learning projects to improve financial forecasting accuracy.</li>
+                <li>Collaborated with finance teams to implement AI tools for data-driven decision-making.</li>
+            </ul>
+
+            <p><strong>Financial Analyst</strong> at XYZ Analytics (2008 - 2015)</p>
+            <ul>
+                <li>Utilized data analytics to streamline financial processes, saving 15% in annual budgets.</li>
+                <li>Created automation systems for reporting and analytics, improving productivity.</li>
+                <li>Worked with senior leadership on financial modeling and risk assessment using machine learning tools.</li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <p><strong>Master’s in Business Administration (Finance)</strong> - Management Development Institute, Gurgaon</p>
+            <p><strong>Bachelor’s in Computer Science</strong> - University of Allahabad</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:pandey.virat@gmail.com">pandey.virat@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/viratpandey">linkedin.com/in/viratpandey</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Virat Pandey | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
